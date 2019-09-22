@@ -1,0 +1,48 @@
+
+<main role="main" class="container">					
+
+	<div class="container  ">
+	<br><br>	
+    <h4 align="center">PRODUCTOS</h4>
+    
+    <div class="container" align=right>
+        <a onclick="AgregarProducto()" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Agregar </a>
+    
+                       
+    </div>                    
+    <br>
+    <div id='list-productos' class="container">
+  <div class="row">
+      <div class="col-sm" align="center"><b>
+      ID </b>
+      </div>
+    <div class="col-sm" align="center"><b>
+      NOMBRE </b>
+    </div>
+    <div class="col-sm" align="center"><b>
+      CATEGORIA</b>
+    </div>
+      <div class="col-sm" align="center"><b>
+      PRECIO</b>
+    </div>
+    <div class="col-sm" align="center"><b>
+      MODIFICAR</b>
+    </div>
+    <div class="col-sm" align="center"><b>
+      ELIMINAR</b>
+    </div>
+  </div>
+        
+  
+</div>
+  </div>  
+  </main>
+ 
+<script type="text/javascript">
+$(document).ready(cargarProductos());
+
+function AgregarProducto(){
+    $('#content').load("abmagregarProducto.html");
+}
+
+</script>

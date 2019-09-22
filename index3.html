@@ -1,0 +1,75 @@
+
+
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=devise-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>CAFE SECCIÓN ADMINISTRADORES</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <!-- Los iconos tipo Solid de Fontawesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+
+    <!-- Nuestro css-->
+<link rel="stylesheet" type="text/css" href="css/index.css" th:href="@{/index_1.css}">
+	
+</head>
+
+<body  class="bg-light">
+	
+	
+	  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<img src="img/cafetearte.png" class="img-fluid" alt="Responsive image">	  
+		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+		  <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active" >
+                          <a class="nav-link" data-target="home3.html" >HOME <span class="sr-only">(current)</span></a>
+			</li>
+                        <li class="nav-item active">
+                            <a class="nav-link" data-target="abmproductos.html" >PRODUCTOS<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item active">
+			  <a class="nav-link" data-target="abmclientes.html"  >CLIENTES<span class="sr-only">(current)</span></a>
+			</li>
+                        <li class="nav-item active" >
+                            <a class="nav-link" data-target="abmreservas.html" >RESERVAS<span class="sr-only">(current)</span></a>
+			</li>
+                        
+		  </ul>
+		</div>
+		<div id="redessociales" align="right">
+                <a title="Twitter" href="https://twitter.com/iniciarsesion?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                <img src="img/twitter_icon.png"></a>
+                <a title="Facebook" href="https://es-la.facebook.com">
+                <img src="img/facebook_icon.png" alt="Facebook"></a>
+                    
+                
+                </div>
+                        <li class="nav-item">
+                <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true">SALIR</a>
+                </li>
+	  </nav>
+		
+                <br><br><br><br>
+                
+                <div id="content" class="container  "></div>
+   
+	<script src="js/jquery-3.4.0.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/principal.js"></script>	
+	<script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <script>
+		$(document).ready(navegacion());
+                $('#content').load("home3.html");
+	</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+ 
+
+ 
+
+      <article>
+            <section class="container">
+                <h4 class="h2 text-center my-3">AGREGAR PRODUCTO</h4>
+                
+                <div class="container" align=right>
+        <a onclick='crearProducto()' class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Grabar </a>
+                           
+    </div> 
+                <form   name="formulario" id="formulario" autocomplete="off">
+                    <fieldset>
+                        
+                        <div class="form-group">
+                        <label>ID</label>
+                        <input type="number" readonly="readonly" id="prodId" name="prodId" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                        <label>Nombre del Producto</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                        <label>Categoria</label>
+                        <input type="number" id="categoria" name="categoria" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                        <label>Precio</label>
+                        <input type="number" id="precio" name="precio" class="form-control">
+                        </div>
+                        
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+
+<script>
+    //$(document).ready(CargarProducto(localStorage.getItem("prodId")));
+
+
+</script>
+

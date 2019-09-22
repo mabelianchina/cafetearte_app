@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.themed-grid-col {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(86, 61, 124, .15);
+  border: 1px solid rgba(86, 61, 124, .2);
+}
+
+.col-6 {
+	border: 1px solid #D12323;
+	
+}
+.row {
+	
+	border: 1px solid #C33437;
+		
+}
+
+.col-md-4 {
+	
+	border: 1px solid #C33437;
+		
+}
+
+
+

@@ -1,0 +1,43 @@
+
+
+	
+	  
+<main role="main" class="container">					
+
+	
+            
+    <div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+            <div class="modal-content">
+                <div class="col-12 user-img">
+                    <img src="img/cafetearte.png" class="img-fluid" alt="Responsive image"th:src="@{/img/frente.jpg}"/>
+                </div>
+                <form class="col-12" >
+                    <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Ingresá tu email" name="correo"/>
+                    </div>
+                    <div class="form-group" id="contrasena-group">
+                        <input type="password" class="form-control" placeholder="Tu contraseña" name="clave"/>
+                    </div>
+					
+                                        <!--button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>  Registrarse </button-->
+                                        <!--a onclick="crearCliente()" class="btn btn-primary " role="button" aria-pressed="true"><i class="fas fa-sign-in-alt"></i>Grabar </a-->
+                                        <!--button type="button" class="btn btn-primary" onclick="crearCliente()" ><i class="fas fa-sign-in-alt"></i>  Registrarse </button-->
+                                        <br>
+                                        <button type="button" class="btn btn-primary" onclick="login(this.form)" ><i class="fas fa-sign-in-alt"></i>  Ingresar </button>
+                </form>
+                <div class="col-12 forgot">
+                    <a href="#">Recordar contraseña</a>
+                    <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true">SALIR</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</main>        
+
+
+    <script>
+		$(document).ready(navegacion());
+    </script>
+	

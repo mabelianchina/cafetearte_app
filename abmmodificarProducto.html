@@ -1,0 +1,40 @@
+ 
+
+ 
+
+      <article>
+            <section class="container">
+                <h1 class="h2 text-center my-3">MODIFICAR PRODUCTO</h1>
+                <form   name="formulario" id="formulario" autocomplete="off">
+                    <fieldset>
+                        
+                        <div class="form-group">
+                        <label>ID</label>
+                        <input type="number" readonly="readonly" id="prodId" name="prodId" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                        <label>Nombre del Producto</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                        <label>Categoria</label>
+                        <input type="number" id="categoria" name="categoria" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                        <label>Precio</label>
+                        <input type="number" id="precio" name="precio" class="form-control">
+                        </div>
+                        <div class="form-group text-center">
+                            <input type="button" onclick ='actualizarProducto();' id="grabar" value="Grabar" class="btn btn-primary ">
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+
+<script>
+    $(document).ready(CargarProducto(localStorage.getItem("prodId")));
+
+
+</script>
+
